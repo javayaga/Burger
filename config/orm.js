@@ -9,18 +9,13 @@ const orm = {
             if (err) throw err;
             console.log(result);
         });
-    // },
+    }
 
     // insertOne: 
 
 
     // updateOne:
-
-
-
-
-
 }
 
-
+// export orm 
 module.exports = orm;
