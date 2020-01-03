@@ -5,9 +5,6 @@ const mysql = require("mysql");
 
 var app = express();
 
-// set port
-var PORT = process.env.PORT || 8080;
-
 // set express to handle data parsing 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
